@@ -1,0 +1,228 @@
+*{margin:0; padding:0; font-family: Arial, Helvetica, sans-serif;}
+body{padding:4vw; background: #fff;line-height: 180%;
+    font-size:18px;}
+
+button{
+    background: white;
+    border: 1px solid #efefef;
+    padding: 4px 12px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+
+h1,h2,h3,h4,h5,h6, p, footer li, li{        
+    max-width: 768px;
+}
+
+h2,h3,h4,h5,h6{ 
+ font-weight: normal;
+    margin-bottom:8px;
+    line-height: 150%;
+    font-size:16px;
+}
+
+h3{
+    font-weight: bold; 
+}
+.h1{
+    font-size: 24px;
+    font-weight: 100;
+    border-top: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.cv .h1-space{
+    margin-top: 24px !important;
+}
+.cv .plain{
+    border-top: 0px !important;
+    margin: 0px !important;
+    padding-top: 0px !important;
+
+}
+.cv h2, .cv h3, .cv h4, .cv h5, .cv h6{ 
+    font-weight: bold; 
+    border-top: 1px dashed #efefef;
+    margin-top: 12px;
+    padding-top: 12px;
+    margin-bottom: 24px;
+}
+div b {
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline-block;
+}
+ul ul li{
+    margin-bottom: 24px;
+}
+li ul{
+    padding-left: 12px;
+    border-left: 1px dashed #ddd;
+}
+li{
+    list-style:none;
+}
+
+p{
+    margin-bottom: 24px;
+}
+
+h1{
+ font-size: 20px;
+ line-height: 150%;
+}
+strong{font-weight: 600;}
+
+span a{
+    font-size: 14px;
+    vertical-align: top;
+    margin-left: 4px;
+
+    text-decoration: none;
+    color: #f00;
+}
+
+
+
+
+.box{
+    margin-bottom:12%;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;    
+}
+
+video,
+img{
+    width:100%; 
+    aspect-ratio: 3/2; 
+    background: #ddd;
+    margin-bottom: 2%; 
+
+    border:1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+} 
+.cv img{aspect-ratio: 1/1;} 
+.size-360-540 img{ aspect-ratio:2/1;}
+.size-360-640 img{ aspect-ratio:2/1;}
+.left{margin-right: 2%}
+.line{ width: 100%;}
+.line-large{display:none;}
+
+
+
+
+footer{
+    border-top:1px solid #ddd;
+    padding: 24px 0;
+}
+footer li{
+        list-style: none;
+        margin-bottom: 12px;
+        color: #666;
+    
+}
+footer li span{
+    color:#f00;
+}
+/*  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 480px) {
+    .size-240-120{width: 40%;}
+    .size-480-240{width: 58%;} 
+    .size-360-540{width: 49%;}
+    .size-360-640{width: 49%;}
+
+    .size-480-640{width: 58%;} 
+
+    .size-360-540 img,
+    .size-360-540 video{ aspect-ratio: 1/1.25;}
+
+    .size-360-640 video{ aspect-ratio: 1/0;}
+    .size-480-640 video{ aspect-ratio: 1/1.35;}
+    
+
+    .size-360-240{width: 49%;}
+    .size-780-240 video{height: 240px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    h1{
+        font-size: 24px;
+    }
+    
+    button{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    body{padding:8vw;}
+    .box{margin-bottom: 8%;}
+    .left{margin-right: 4%;}
+
+    .size-240-120{width: 40%;}
+    .size-480-240{width: 56%;}
+
+    .size-480-640{width: 56%;} 
+    
+    .size-360-540{width: 48%;}
+    .size-360-640{width: 48%;}
+    .size-360-240{width: 48%;}
+
+    .size-780-240 video{height: 64 0px;}
+ 
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px){
+
+   
+    body{padding:4vw;}
+    div.box{margin-bottom: 2%; margin-right:2%;}
+    .left{margin-right: 0%;}
+    .mid{margin-right: 2%;}    
+    .line{display: none;}
+    .line-large{width: 100%;}
+    .line-large{display:block;}
+
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h1, h2{
+        max-width: 1024px;
+    }
+
+    button{
+        
+        right: 2%;
+    
+    }
+
+    .size-780-360,
+    .size-780-240{width: 48%;}
+    .size-240-120{width: 19%;}
+    .size-480-240{width: 27%;}
+    .size-480-640{width: 27%;} 
+    
+    .size-360-540{width: 23%;}
+    .size-360-640{width: 23%;}
+    .size-360-240{width: 23%;}
+   
+}
+
+
